@@ -16,7 +16,7 @@ public class Main {
         // Mostrar los coeficientes de regresión
         mlr.displayRegressionCoefficients();
 
-        // Evaluar el modelo con los datos (esto se puede mejorar con división de datos)
+        // Evaluar el modelo con los datos 
         mlr.evaluateModel(sales, advertising, years);
 
         // Predecir ventas con datos dados de publicidad y años
